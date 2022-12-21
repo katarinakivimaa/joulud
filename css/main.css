@@ -295,3 +295,25 @@ margin-top: 120px;
 .today iframe {
   margin-right: -700px;
 }
+.solar {
+  margin: 2.5em;
+}
+.sol {
+  z-index: 2;
+  position: absolute;
+  height: 500px;
+  width: 400px;
+}
+.solar img {
+  z-index: 1;
+  height: 800px;
+  width: auto;
+}
+.box {
+  height: 900px;
+  width: 400px;
+}
+.solar ul {
+  display: flex;
+  flex-direction: row;
+}
