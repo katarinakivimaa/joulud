@@ -83,7 +83,7 @@ body {
   font-family: 'Ramabhadra', sans-serif;
   font-weight: 400;
   line-height: 1.75;
-  color: #000000;
+  color: #99DBFC;
 }
 /*text*/
 p {margin-bottom: 1rem;}
@@ -138,6 +138,7 @@ a {
   color: inherit;
 }
 .text {
+  margin-top: 200px;
   text-align: right;
   color: white;
 }
@@ -184,27 +185,28 @@ margin-top: 120px;
   justify-content: center;
   align-items: center;
 }
-
+.content nav ul a {
+  color: #FFD7A2;
+}
 .dot {
   height: 25px;
   width: 25px;
-  background-color: #bbb;
+  background-color: #FFD7A2;
   border-radius: 50%;
   display: inline-block;
 }
 .dott {
   height: 25px;
   width: 25px;
-  background-color: #000000;
+  background-color: #8CADFF;
   border-radius: 50%;
   display: inline-block;
 }
 .symbol {
   padding-left: 100px;
-
   height: 600px;
   width: 200px;
-  background-color: #D8D3D2;
+  background-color: #8CADFF;
 }
 .symbol h2 {
   -webkit-transform: rotate(270deg);
@@ -216,7 +218,7 @@ margin-top: 120px;
 }
 .symbol h3 {
   margin-left: 100px;
-  color: #D8D3D2;
+  color: #8CADFF;
   -webkit-transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -241,7 +243,7 @@ margin-top: 120px;
   z-index: 2;
   height: 500px;
   width: 900px;
-  background-color: #1A1A1A;
+  background-color: #8CADFF
 }
 .aero .prepare_to_brawl h2 {
   color: white;
@@ -259,9 +261,37 @@ margin-top: 120px;
 }
 .prepare_to_brawl p {
   margin-top: 50px;
-  color: #AAAAAA;
+  color: white;
 }
 .prepare_to_brawl .learn h6 {
   color: white;
   margin-left: -30px;
+}
+.today {
+  margin-left: -500px;
+  margin-top: 100px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+.täna {
+  position: absolute;
+  margin: 2.5em;
+  height: 500px;
+  width: 900px;
+  background-color: #FFE8C8;
+}
+.boo {
+  margin: 2.5em;
+  color: #FFAE3D;
+}
+.boo h3 {
+  margin-top: -50px;
+}
+.boo h2 {
+  opacity: 0.3;
+}
+
+.today iframe {
+  margin-right: -700px;
 }
