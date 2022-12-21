@@ -91,7 +91,7 @@ p {margin-bottom: 1rem;}
 h1, h2, h3, h4, h5 {
   margin: 3rem 0 1.38rem;
   font-family: 'Ramabhadra', sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 1.3;
 }
 
@@ -121,9 +121,10 @@ small, .text_small {font-size: 0.8rem;}
   grid-template-rows: 1fr;
   grid-row-gap: 0px;
 }
-.home nav, .text, .learn {
-  z-index: 2;
+.home nav {
+  color: white;
 }
+
 .home img {
   z-index: 0;
   object-fit: cover;
@@ -134,16 +135,18 @@ ul {
 }
 a {
   text-decoration: none;
+  color: inherit;
 }
 .text {
   text-align: right;
   color: white;
 }
 .learn {
+  margin-right: 100px;
   float: right;
   background-color: black;
   height: 40px;
-  width: 80px;
+  width: 90px;
 }
 .home .text ol {
   display: flex;
@@ -151,7 +154,8 @@ a {
   float: right;
 }
 .learn h6 {
-  padding-right: 50px;
+margin-top: -3px;
+margin-left: 10px;
 }
 .numbers {
 display: grid;
@@ -159,7 +163,7 @@ grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(2, 1fr);
 grid-column-gap: 0px;
 grid-row-gap: 0px;
-margin-top: 20px;
+margin-top: 120px;
 }
 .numbers h4 {
   opacity: 0.5;
@@ -170,10 +174,14 @@ margin-top: 20px;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
+  margin-top: 70px;
 }
 
 .content nav {
   color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .dot {
@@ -183,9 +191,18 @@ margin-top: 20px;
   border-radius: 50%;
   display: inline-block;
 }
+.dott {
+  height: 25px;
+  width: 25px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: inline-block;
+}
 .symbol {
-  height: 400px;
-  width: 100px;
+  padding-left: 100px;
+
+  height: 600px;
+  width: 200px;
   background-color: #D8D3D2;
 }
 .symbol h2 {
@@ -194,6 +211,7 @@ margin-top: 20px;
   -ms-transform: rotate(270deg);
   -o-transform: rotate(270deg);
   transform: rotate(270deg);
+  margin-top: 150px;
 }
 .symbol h3 {
   margin-left: 100px;
@@ -203,4 +221,24 @@ margin-top: 20px;
   -ms-transform: rotate(270deg);
   -o-transform: rotate(270deg);
   transform: rotate(270deg);
+}
+.aeronautics {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+.aeronautics img {
+  height: 700px;
+  width: auto;
+  z-index: 1;
+  margin-left: -800px;
+}
+.aero {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 100px;
+  z-index: 2;
+  height: 400px;
+  width: 800px;
+  background-color: #1A1A1A;
 }
