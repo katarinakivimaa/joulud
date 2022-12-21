@@ -116,6 +116,10 @@ small, .text_small {font-size: 0.8rem;}
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-row-gap: 0px;
 }
 .home nav, .text, .learn {
   z-index: 2;
@@ -124,15 +128,40 @@ small, .text_small {font-size: 0.8rem;}
   z-index: 0;
   object-fit: cover;
 }
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
 a {
-
+  text-decoration: none;
+  color: white;
 }
 .text {
   text-align: right;
   color: white;
 }
 .learn {
+  float: right;
   background-color: black;
-  height: 50px;
-  width: 100px;
+  height: 40px;
+  width: 80px;
+}
+.home .text ol {
+  display: flex;
+  flex-direction: row;
+  float: right;
+}
+.learn h6 {
+  padding-right: 50px;
+}
+.numbers {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+margin-top: 20px;
+}
+.numbers h4 {
+  opacity: 0.5;
 }
