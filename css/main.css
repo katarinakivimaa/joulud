@@ -239,8 +239,8 @@ margin-top: 120px;
   margin-left: 500px;
   margin-top: 100px;
   z-index: 2;
-  height: 400px;
-  width: 800px;
+  height: 500px;
+  width: 900px;
   background-color: #1A1A1A;
 }
 .aero .prepare_to_brawl h2 {
@@ -252,6 +252,16 @@ margin-top: 120px;
   margin: 2.5em;
 }
 .prepare_to_brawl h3 {
-  margin-top: -50px;
+  position: absolute;
+  z-index: 1;
+  margin-top: -70px;
   color: white;
+}
+.prepare_to_brawl p {
+  margin-top: 50px;
+  color: #AAAAAA;
+}
+.prepare_to_brawl .learn h6 {
+  color: white;
+  margin-left: -30px;
 }
