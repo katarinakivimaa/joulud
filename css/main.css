@@ -333,11 +333,13 @@ margin-right: -100px;
   width: 1500px;
   background-color: #8CADFF;
   margin-top: 100px;
-  margin-left: 100px;
-
+  margin-left: 150px;
 }
 .solar ul {
+  color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: -50px;
+  margin-bottom: -50px;
 }
